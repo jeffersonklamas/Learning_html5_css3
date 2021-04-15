@@ -1,5 +1,7 @@
 body {
-    background: rgb(228, 226, 226);
+    /* background: rgb(228, 226, 226);*/
+    background: rgb(206,204,230);
+    background: linear-gradient(90deg, rgb(209, 208, 219) 33%, rgba(9,9,121,0.1825105042016807) 63%, rgb(122, 128, 129) 100%);
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
