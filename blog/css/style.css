@@ -1,23 +1,27 @@
 body {
     /* background: rgb(228, 226, 226);*/
-    background: rgb(8, 8, 8);
+    background: rgb(139, 138, 138);
     // background: linear-gradient(90deg, rgb(74, 74, 82) 33%, rgba(43, 43, 61, 0.183) 63%, rgb(89, 93, 94) 100%);
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: rgb(247, 239, 235);
+    color: rgb(226, 191, 77);
     text-align: center;
 }
 
 h2 {
-    color: crimson;
+    color: rgb(247, 243, 9);
     text-align: center;
 }
 
+h4 {
+    color: rgb(178, 238, 178);
+}
+
 p {
-    color: honeydew;
+    color: white;
 }
 
 li {
@@ -25,6 +29,9 @@ li {
     text-align: justify;
 }
 
+a.href {
+    color: rgb(247, 224, 23);
+}
 
 ::marker {
     unicode-bidi: isolate;
