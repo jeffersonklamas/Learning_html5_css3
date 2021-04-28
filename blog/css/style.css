@@ -28,11 +28,20 @@ h4 {
 
 p {
     color: white;
+    text-align: justify;
+    margin: 12px 25px 5px 25px;
 }
 
 li {
     color: khaki;
     text-align: justify;
+}
+
+img {
+    margin: 25px 10px 25px 500px;
+    width: 900px;
+    height: 500px;
+    align-items: flex-end;
 }
 
 .fullCard {
