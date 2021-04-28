@@ -37,11 +37,25 @@ li {
     text-align: justify;
 }
 
+.pai{
+    display:flex;
+    flex-direction:row;
+    align-itens: center;
+    margin: 30px20px 25px 30px;
+  }
+
 img {
     margin: 25px 10px 25px 500px;
     width: 900px;
     height: 500px;
     align-items: flex-end;
+}
+
+.caradapessoa {
+    margin: 20px 0 0 0;
+    width: 100px;
+    height: 100px;
+
 }
 
 .fullCard {
