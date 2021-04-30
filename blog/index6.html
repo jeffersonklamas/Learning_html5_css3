@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do JKM</title>
+</head>
+<body>
+    <main>
+        <h1>Sobre funcões</h1>
+    </main>
+    <div>
+        <h2>Sobre como escrever funções, boa práticas</h2>
+    </div>
+    <div>
+        <h3>A forma certa de Escrever Funções</h3>
+        <p>Essa dica peguei do Vinicius Filho postado por ele em 30/04/2021 às 13:25 no Fórum da Digital Innovation One</p>
+        
+            <strong>Introdução</strong>
+            <p>
+                Funções, funções e funções, provavelmente já ouviu muito sobre e fez muitas na sua vida, mas se tem dúvidas em boas praticas nelas, então este artigo é pra você! Não basta apenas funcionar para se tornar um bom código, funções tem que ser bem escritas, pequenas, com poucos parâmetros, funções enxutas, com objetivos específicos tornam-se mais fáceis de entender, modificar e facilitam no desenvolvimento do seu software.
+            </p>
+            <strong>Projeto Grande, Funções Pequenas</strong>
+            <p>
+                Uma função deve caber em uma tela, ou melhor, ela deve caber em poucas linhas, de 1 à umas 30. Mas o porquê dessa exigência? Com funções menores, além de uma fácil interpretação e fácil entendimento, fica difícil fazer ela ter várias responsabilidades e deixa muito mais objetiva, sua função tem que ser direta ao ponto, pequena e sucinta.
+            </p>
+            
+            <strong>Blocos</strong>
+            <p>
+                Blocos de repetição e condicionais, devem ter apenas uma linha, de preferência uma chamada de função, assim você pode colocar um nome que descreva o que essa condição ou repetição faz.
+            </p>
+            <strong>Faça Apenas uma Coisa</strong>
+            <p>
+                Uma função, além de simples, tem que ser objetiva, como um único propósito. Simples, se sua função faz 5 coisas ao mesmo tempo, abstraia em coisas menores, e faça seu código valer a pena. Note, se sua função está divida em seções, obviamente está fazendo diversas coisas ao mesmo tempo.
+            </p>
+            <strong>De Cima para Baixo</strong>
+            <p>
+                Seu código estará dividido em várias abstrações, de vários níveis, queremos que a leitura inicie no nível mais alto e vá abaixando com o tempo
+            </p>
+            <strong>Nomes</strong>
+            <p>
+                Use nomes significativos, use nomes que só de pensar nele, remeta aquela função específica criada para aquele determinado propósito, nomeie com sabedoria e sabendo o propósito da função, e você pode mudar a qualquer momento.
+            </p>
+            <p>
+                Não tenha medo de nomes extensos, a sua IDE facilmente vai identificar ele e auto completar.
+            </p>
+            <strong>Parâmetros</strong>
+            <p>
+                Quanto menos, melhor, se você não utiliza parâmetros, seus testes se tornam facilitados, quanto mais parâmetros, mais se torna necessário a complicação de testes, e mais se torna complicado a interpretação e leitura.
+            </p>
+            <p>
+                Não passe parâmetros lógicos para uma função, se ela tem um curso para verdadeiro e outro para falso, crie duas funções, uma para cada curso.
+            </p>
+            <p>
+                Algumas razões para usar um parâmetro em uma função são:
+            </p>
+            <ul type="circle">
+                <li>Fazer uma pergunta sobre algo: typeof(“File”).
+                <li>Transformar em outra coisa: String(15).
+                <li>Gerar um evento: console.log(“File”).
+            </ul>
+            <p>
+                Algumas razões para usar dois parâmetros em funções são:
+            </p>
+            <ul type="circle">
+                <li>Plano cartesiano: Point(0, 0)
+                <li>Comparação: AssertEquals(“a”, “b”)
+            </ul>
+            <p>
+                Além disso em casos específicos se podem usar funções com mais de um parâmetro, mas tente evitar.
+            </p>
+            
+            <strong>Não Minta</strong>
+            <p>
+                Quando você dá um nome para uma função e ela faz outra coisa, ou no meio do caminho faz algo inesperado, você está praticamente fazendo uma mentira no seu código, que te prejudicará ou prejudicará a próxima pessoa que ler.
+            </p>
+
+            <strong>Exceções vs Retorno com Erro</strong>
+            <p>
+                Ao invés de um throws exception, utilize um if else, retornos com erros precisam ser validados depois, e se esquecer, vai causar uma grande dor de cabeça, com uma validação é bem mais simples entender o que está acontecendo.
+            </p>
+            <p>
+                O tratamento de erro deve ser feito, e ele é um objetivo único e principal, logo, deve ser feito isoladamente em uma função.
+            </p>
+            <strong>Não Repita</strong>
+            <p>
+                Evite funções com objetivos semelhantes ou até idênticos, se você ver isso, corrija imediatamente e veja se você pode junta-las ou dividir em coisas diferentes.
+            </p>
+            <strong>Processo de Criação</strong>
+            <p>
+                Não comece a criar uma função pensando em todas essas regras, se não nunca começará, assim como na escrita, onde temos um rascunho e escrevemos tudo que vêm a nossa mente, comece uma função escrevendo-a longa e complexa, e depois, vá desestruturando e abstraindo.
+            </p>
+            <strong>Conclusão</strong>
+            <p>
+                Funções são verbos da linguagem e classes são substantivos, então, tente construir verbos expressivos e sem duplo sentido, verbos que realmente tragam um motivo de sua existência. Funções pequenas são muito importantes para um bom código, além de um bom nome, uma função deve ter um único propósito e ser fácil de testar.
+            </p>
+        </div>
+
+    
+</body>
+</html>
